@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width:80vw;
+    font-family: 'Ubuntu',sans-serif;
+} 
+
+.navbar{
+    display: flex;
+    height: 67px;
+
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width:50%;
+    height: 50vh;
+
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+
+.section1{
+    max-height: 200vh;
+  
+
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 75px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.image-text{
+    color:aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+.image1-text{
+    color:aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+
+
+.section2 h1{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu',sans-serif;
+
+
+}
+
+.section2-1{
+    padding: 75px;
+}
+
+.box{
+    padding:8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 120px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+
+}
+
+.section3 table td{
+
+    border-bottom: 2px solid black;
+    
+
+}
+
+.section3 h1{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+
+.section3{
+    padding: 75px;
+}
+
+footer{
+    padding: 23px;
+} 
